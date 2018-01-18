@@ -1,6 +1,6 @@
 {
   "name": "express-route-discovery",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Inspect the handler chain of an Express app",
   "main": "index.js",
   "repository": {
