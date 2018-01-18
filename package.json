@@ -1,0 +1,14 @@
+{
+  "name": "express-route-discovery",
+  "version": "0.1.0",
+  "description": "Inspect the handler chain of an Express app",
+  "main": "index.js",
+  "keywords": [
+    "express",
+    "router",
+    "middlware",
+    "stack"
+  ],
+  "author": "Luke Albao<lukealbao@gmail.com>",
+  "license": "ISC"
+}

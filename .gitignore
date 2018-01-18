@@ -1,0 +1,14 @@
+log
+node_modules
+*~
+*.log
+.env
+build
+.DS_Store
+.nyc_output
+*.sqlite3
+docpid
+bin/temp
+src/test/testLib/log-audit/reports/log-audit.json
+coverage/
+*.swp
