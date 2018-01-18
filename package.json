@@ -1,8 +1,12 @@
 {
   "name": "express-route-discovery",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Inspect the handler chain of an Express app",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukealbao/express-route-discovery.git"
+  },
   "keywords": [
     "express",
     "router",
