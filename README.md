@@ -16,6 +16,51 @@ const discover = require('express-route-discovery');
 
 app.locals.routes = discover(app);
 ```
+If you print out your routes as JSON, it might look something like
+this:
+
+```json
+[
+  {
+    "id": "postapiusers",
+    "path": "/api/users",
+    "method": "POST",
+    "stack": [
+      "query",
+      "expressInit",
+      "<anonymous>",
+      "logger",
+      "urlencodedParser",
+      "jsonParser",
+      "methodOverride",
+      "serveStatic",
+      "session",
+      "errorHandler",
+      "addUserToDatabase"
+    ]
+  },
+  {
+    "id": "getapiprofilesusername",
+    "path": "/api/profiles/:username",
+    "method": "GET",
+    "stack": [
+      "query",
+      "expressInit",
+      "<anonymous>",
+      "logger",
+      "urlencodedParser",
+      "jsonParser",
+      "methodOverride",
+      "serveStatic",
+      "session",
+      "errorHandler",
+      "fetchUserByUsername",
+      "getUsersProfiles",
+      "respond"
+    ]
+  }
+]
+```
 
 ## But why?
 There are two main uses for this package: information and testing. 
